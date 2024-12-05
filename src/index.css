@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  width: 100%;
+}
+
+.react-datepicker {
+  font-family: inherit !important;
+  border: none !important;
+  border-radius: 1rem !important;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1) !important;
+  padding: 1rem !important;
+}
+
+.react-datepicker__header {
+  background-color: white !important;
+  border-bottom: none !important;
+  padding-top: 0.5rem !important;
+  font-weight: 600;
+}
+
+.react-datepicker__current-month {
+  color: rgb(73, 26, 149) !important;
+  font-weight: 600 !important;
+  font-size: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.react-datepicker__day-name {
+  color: #6b7280 !important;
+  font-weight: 500 !important;
+  margin: 0.5rem !important;
+  width: 2rem !important;
+}
+
+.react-datepicker__day {
+  margin: 0.5rem !important;
+  width: 2rem !important;
+  height: 2rem !important;
+  line-height: 2rem !important;
+  border-radius: 9999px !important;
+  color: #374151 !important;
+}
+
+.react-datepicker__day:hover {
+  background-color: #F3F0FA !important;
+  color: rgb(73, 26, 149) !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: rgb(73, 26, 149) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #F3F0FA !important;
+  color: rgb(73, 26, 149) !important;
+}
+
+.react-datepicker__day--disabled {
+  color: #d1d5db !important;
+  cursor: not-allowed !important;
+}
+
+.react-datepicker__navigation {
+  top: 1rem !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  border-color: rgb(73, 26, 149) !important;
+  border-width: 2px 2px 0 0 !important;
+  height: 8px !important;
+  width: 8px !important;
+}
+
+.react-datepicker__triangle {
+  display: none !important;
+}
+
+.react-datepicker-popper {
+  z-index: 50 !important;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+  display: block !important;
+  width: 100% !important;
+}
+
+.react-datepicker__input-container input {
+  width: 100% !important;
+  outline: none !important;
+}
+
